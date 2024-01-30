@@ -1,0 +1,32 @@
+@use '../abstracts/variables' as v;
+
+
+body{
+    color: v.$primary-color;
+}
+
+h1, h2, h3 {
+    font-family: v.$heading-font-family;
+}
+
+p {
+    font-family: v.$body-font-family;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+p {
+    font-weight: v.$base-font-weight;
+    font-size: v.$base-font-size
+}

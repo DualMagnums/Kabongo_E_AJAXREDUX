@@ -1,0 +1,272 @@
+body{
+    color:#ffffff
+}
+h1,h2,h3{
+    color: rgb(255, 255, 255);
+    text-shadow: #000000 5px 2px 10px;
+    font-family:"Poppins",Arial,sans-serif
+}
+p{
+    font-family:"Poppins",sans-serif;
+    margin-bottom:20px
+}
+h2{
+    font-family:"Poppins",sans-serif;
+    margin-top:20px;
+    font-weight:600;
+    font-size:24px;
+    margin-bottom:20px
+}
+h3{
+    font-family:"Poppins",sans-serif;
+    font-weight:600;
+    font-size:18px
+}
+p{
+    font-family:"Poppins",sans-serif;
+    font-weight:800;
+    font-size:25px;
+    text-shadow: #000000 2px 2px 8px;
+}
+.spinner-img{
+    animation:rotation 6s infinite linear;
+    max-width:100px
+}
+#loading-box-2{
+    text-align:center
+}
+#loading-box{
+    text-align:center
+}
+@keyframes rotation{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
+
+@keyframes circle{
+    from{
+        transform:translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg)
+    }
+    to{
+        transform:translateX(-50%) rotate(360deg) translateX(50px) rotate(-360deg)
+    }
+}
+@keyframes elongate{
+    from{
+        transform:translateX(100px)
+    }
+    to{
+        transform:translateX(-100px)
+    }
+}
+body{
+    background-color:#000
+}
+#character-box{
+    background-color: rgba(0, 0, 0, 0.164);
+    background-repeat:no-repeat;
+    background-size:cover;
+    min-height:937px
+}
+#movie-box{
+    background-color: rgba(0, 0, 0, 0.164);
+    background-repeat:no-repeat;
+    background-size:cover;
+    min-height:937px
+}
+@media(min-width: 768px){
+    #character-box{
+        background-image:url(../images/darth.jpg);
+        min-height:1137px
+    }
+    #movie-box{
+        background-image:url(../images/darth.jpg);
+        min-height:1137px
+    }
+}
+@media(min-width: 1200px){
+    body{
+        background-image:url(../images/darth.jpg);
+        background-repeat:no-repeat;
+        background-size:cover
+    }
+    #character-box{
+        background-image:none
+    }
+    #movie-box{
+        background-image:none
+    }
+}
+@media(min-width: 1920px){
+    body{
+        background-image:url(../images/darth.jpg)
+    }
+}
+ul{
+    list-style-type:none;
+    padding:0
+}
+a{
+    cursor:pointer
+}
+#character-box h2{
+    font-size:35px;
+    font-weight:bold
+}
+#character-box{
+    padding-top:30px;
+    text-align:center;
+    font-family:"Poppins",Arial,sans-serif;
+    font-weight: 700;
+    
+}
+#character-box ul{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#character-box li{
+    background-color:#000000;
+    border-radius: 50px;
+    border: rgb(255, 151, 151) solid 2px;
+    margin-top:30px;
+    padding:10px;
+    width:230px
+}
+#character-box li a{
+    color:#ffffff;
+    text-transform: capitalize;
+}
+#movie-box{
+    text-align:center;
+    padding-top:20px
+}
+#info-movies{
+    margin:25px;
+    padding:40px
+}
+.movie-box-information h2{
+    font-size:35px;
+    font-weight:bold;
+    margin-top:60px
+}
+.movie-title{
+    font-size:220px
+}
+.movie-description{
+    font-size:17px
+}
+#close{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    font-weight: bolder;
+    margin-right:20px;
+    float:right;
+    text-shadow: #000000 5px 2px 10px;
+}
+.movie-box-information{
+    display:none
+}
+#pre-load-text{
+    font-size:20px;
+    margin:20px;
+    padding:10px
+}
+#pre-load-text p{
+    margin-bottom:0
+}
+@media(min-width: 768px){
+    #character-box h2{
+        font-size:55px
+    }
+    #character-box li{
+        margin-top:30px;
+        padding:10px;
+        width:330px
+    }
+    #character-box li a{
+        font-size:25px
+    }
+    .movie-box-information h2{
+        font-size:55px
+    }
+    .movie-title{
+        font-size:32px
+    }
+    .movie-description{
+        font-size:22px
+    }
+    #close{
+        font-size:70px;
+        margin-right:20px;
+        float:right
+    }
+    #pre-load-text p{
+        font-size:42px
+    }
+}
+@media(min-width: 1200px){
+    #character-box h2{
+        font-size:55px
+    }
+    #character-box li{
+        margin-top:30px;
+        padding:10px;
+        width:330px
+    }
+    #character-box li a{
+        font-size:25px
+    }
+    .movie-box-information h2{
+        font-size:55px
+    }
+    .movie-title{
+        font-size:32px
+    }
+    .movie-description{
+        font-size:22px
+    }
+    #close{
+        font-size:70px;
+        margin-right:20px;
+        float:right
+    }
+    #pre-load-text p{
+        font-size:42px
+    }
+}
+@media(min-width: 1920px){
+    #character-box h2{
+        font-size:62px
+    }
+    #character-box li{
+        margin-top:30px;
+        padding:10px;
+        width:330px
+    }
+    #character-box li a{
+        font-size:30px
+    }
+    .movie-box-information h2{
+        font-size:62px
+    }
+    .movie-title{
+        font-size:35px
+    }
+    .movie-description{
+        font-size:25px
+    }
+    #close{
+        font-size:70px;
+        margin-right:20px;
+        float:right
+    }
+    #pre-load-text p{
+        font-size:42px
+    }
+}
+/*# sourceMappingURL=main.css.map */
