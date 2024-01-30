@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Emanuel Kabongo Star Wars API</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    /><link href="css/grid.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <script defer src="js/main.js"></script>
+
+  </head>
+  <body>
+    <div class="grid-con">
+      <section class="col-span-full l-col-span-6" id="character-box">
+        <h2>List of Star Wars Characters</h2>
+        <div id="loading-box">
+        </div>
+      </section>
+
+
+      <section class="col-span-full l-col-span-6" id="movie-box">
+
+        <div id="loading-box-2"></div>
+
+        <div id="pre-load-text">
+          <p>Select a character to see in which movie they debuted!</p>
+        </div>
+
+        <div class="movie-box-information">
+          <div>
+            <a><span id="close">&times;</span></a>
+          </div>
+        <h2>Episode</h2>
+        <section id="review-con">
+        <template id="review-template">
+
+        <div>
+
+        <h3 class="review-heading"></h3>
+
+        <div id="info-movies">
+
+          <p class="movie-title"></p>
+          <p class="movie-description"></p>
+          <img class="photo-movie">
+
+        </div>
+
+        </div>
+          </template>
+        </section>
+      </div>
+      </section>
+
+    </div>  
+  </body>
+</html>
